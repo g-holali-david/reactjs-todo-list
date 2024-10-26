@@ -1,0 +1,72 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Node modules
+node_modules/
+
+# Dossier de build et de distribution
+dist/
+build/
+
+# Fichiers de configuration de l'environnement
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Caches spécifiques de l'éditeur et de l'IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dépendances de lockfile pour npm et yarn
+package-lock.json
+yarn.lock
+
+# Fichiers générés par vite
+.vite
+.cache/
+
+# Fichiers de rapport de test
+coverage/
+junit.xml
+test-report.xml
+
+# Dossiers de cache et de transpilation
+.cache/
+*.log
+
+# Configurations spécifiques aux systèmes d'exploitation
+Thumbs.db
+Desktop.ini
+
