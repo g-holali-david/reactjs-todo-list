@@ -1,5 +1,4 @@
-
-## RJS Todo List App
+# RJS Todo List App
 
 RJS Todo List App est une application de liste de tâches construite avec React et déployée dans un conteneur Docker. 
 Cette application est simple à exécuter via Docker pour un déploiement rapide.
