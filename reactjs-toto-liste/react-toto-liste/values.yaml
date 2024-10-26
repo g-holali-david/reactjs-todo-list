@@ -1,0 +1,22 @@
+# values.yaml
+replicaCount: 1
+
+image:
+  repository: react-toto-liste
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: false
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
