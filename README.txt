@@ -1,5 +1,5 @@
 
-#RJS Todo List App
+## RJS Todo List App
 
 RJS Todo List App est une application de liste de tâches construite avec React et déployée dans un conteneur Docker. 
 Cette application est simple à exécuter via Docker pour un déploiement rapide.
@@ -19,21 +19,17 @@ Cette application est simple à exécuter via Docker pour un déploiement rapide
    ```
 
 
-2. **Exécuter le conteneur**
+2. Exécuter le conteneur**
 
    Lancez l'application en exécutant la commande suivante :
 
    ```bash
    docker run -p 80:80 davsitcom/rjs-todolist-app:latest
-   ```
 
-   - `-p 80:80` : Mappe le port 80 du conteneur au port 80 de votre machine locale.
    - L'application sera alors accessible dans un navigateur à `http://localhost`.
 
 ## Exécuter le Conteneur en Arrière-plan (Optionnel)
 
 Si vous souhaitez exécuter le conteneur en arrière-plan, ajoutez l'option `-d` :
 
-```bash
 docker run -d -p 80:80 davsitcom/rjs-todolist-app:latest
-```
